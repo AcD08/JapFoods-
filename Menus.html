@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menus - JapFoods!</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+    .mySlides {display:none;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <h1 class="judul">JapFoods!</h1>
+        </div>
+        <!--<span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">-->
+          <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="Career.html">Career</a>
+          <a href="Menus.html">Our Menus</a>
+          <a href="About.html">About</a>
+          <a href="index.html">Home</a>
+        </div>
+      </div>
+      </div>
+        <span class="button-menu" onclick="openNav()">&#9776; </span>
+    </header>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <div class="menus">
+                  <h1 class="section-title">Our Menus</h1>
+                  <img src="images/Curry-Rice.jpg" alt="Curry-Rice" style="width:20%" id="menu1-image">
+                  <button class="myBtn" id="btn1">Curry Rice</button>
+                  <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Curry Rice</h2>
+                      </div>
+                      <div class="modal-body">
+                        <p>Japanese curry (カレー, karē) is commonly served in three main forms: curry rice (カレーライス, karē raisu, curry over rice), curry udon (curry over noodles), and curry bread (a curry-filled pastry). It is one of the most popular dishes in Japan. The very common "curry rice" is most commonly referred to simply as "curry" (カレー, karē).</p>
+                        <p>Price: IDR</p>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="images/Okonomiyaki.jpg" alt="Okonomiyaki" style="width:20%" id="menu2-image">
+                  <div id="btn2"><button class="myBtn">Okonomiyaki</button></div>
+                  <div id="myModal2" class="modal">
+                    <div class="modal2-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Okonomiyaki</h2>
+                      </div>
+                      <div class="modal-body">
+                        <p>Okonomiyaki (お好み焼き, o-konomi-yaki) is a Japanese savory pancake containing a variety of ingredients in a wheat-flour-based batter; it is an example of konamon (flour-based Japanese cuisine). The name is derived from the word okonomi, meaning "how you like" or "what you like", and yaki meaning "cooked" (usually fried). Okonomiyaki is mainly associated with the Kansai or Hiroshima areas of Japan, but is widely available throughout the country. Toppings and batters tend to vary according to region. In Tokyo, there is a semi-liquid okonomiyaki called monjayaki.</p>
+                        <p>Price: IDR</p>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="images/Onigiri.jpg" alt="Onigiri" style="width:20%" id="menu3-image">
+                  <div id="btn3"><button class="myBtn">Onigiri</button></div>
+                  <div id="myModal3" class="modal">
+                    <div class="modal3-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Onigiri</h2>
+                      </div>
+                      <div class="modal-body">
+                        <p>O-nigiri (お握り or 御握り; おにぎり), also known as o-musubi (お結び; おむすび), nigirimeshi (握り飯; にぎりめし), rice ball, is a Japanese food made from white rice formed into triangular or cylindrical shapes and often wrapped in nori (seaweed). Traditionally, an onigiri is filled with pickled ume (umeboshi), salted salmon, katsuobushi, kombu, tarako, or any other salty or sour ingredient as a natural preservative. Most Japanese convenience stores stock their onigiri with various fillings and flavors. There are even specialized shops which only sell onigiri to take out. Due to the popularity of this trend in Japan, onigiri has become a popular staple in Japanese restaurants worldwide.</p>
+                        <p>Price: IDR</p>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="images/Ramen.jpg" alt="Ramen" style="width:20%" class="menu4-image">
+                  <div id="btn4"><button class="myBtn">Ramen</button></div>
+                  <div id="myModal4" class="modal">
+                    <div class="modal4-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Ramen</h2>
+                      </div>
+                      <div class="modal-body">
+                        <p>Ramen (拉麺, ラーメン, rāmen, IPA: [ɾaꜜːmeɴ]) is a Japanese noodle soup. It consists of Chinese wheat noodles served in a meat or (occasionally) fish-based broth, often flavored with soy sauce or miso, and uses toppings such as sliced pork (叉焼, chāshū), nori (dried seaweed), menma, and scallions. Nearly every region in Japan has its own variation of ramen, such as the tonkotsu (pork bone broth) ramen of Kyushu and the miso ramen of Hokkaido. Mazemen is the name of a ramen dish that is not served in a soup, but rather with a sauce (such as tare), like noodles that are served with a sweet and sour sauce.</p>
+                        <p>Price: IDR</p>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="images/Sukiyaki.jpg" alt="Sukiyaki" style="width:20%" id="menu5-image">
+                  <div id="btn5"><button class="myBtn">Sukiyaki</button></div>
+                  <div id="myModal5" class="modal">
+                    <div class="modal5-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Sukiyaki</h2>
+                      </div>
+                      <div class="modal-body">
+                        <p>Sukiyaki (鋤焼, or more commonly すき焼き; [sɯ̥kijaki]) is a Japanese dish that is prepared and served in the nabemono (Japanese hot pot) style. It consists of meat (usually thinly sliced beef) which is slowly cooked or simmered at the table, alongside vegetables and other ingredients, in a shallow iron pot in a mixture of soy sauce, sugar, and mirin. The ingredients are usually dipped in a small bowl of raw, beaten eggs after being cooked in the pot, and then eaten. Generally sukiyaki is a winter dish and it is commonly found at bōnenkai, Japanese year-end parties.</p>
+                        <p>Price: IDR</p>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="images/Sushi.jpg" alt="Sushi" style="width:20%" id="menu6-image">
+                  <div id="btn6"><button class="myBtn">Sushi</button></div>
+                  <div id="myModal6" class="modal">
+                    <div class="modal6-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Sushi</h2>
+                      </div>
+                      <div class="modal-body">
+                        <p>Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, vegetables, and occasionally tropical fruits. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari (しゃり), or sumeshi (酢飯).
+
+Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian. It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.
+
+Sushi is sometimes confused with sashimi, a related dish in Japanese cuisine that consists of thinly sliced raw fish, or occasionally meat, and an optional serving of rice.</p>
+                        <p>Price: IDR</p>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="images/Yakisoba.jpg" alt="Yakisoba" style="width:20%" id="menu7-image">
+                  <div id="btn7"><button class="myBtn">Yakisoba</button></div>
+                  <div id="myModal7" class="modal">
+                    <div class="modal7-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Yakisoba</h2>
+                      </div>
+                      <div class="modal-body">
+                        <p>Yakisoba (Japanese: 焼きそば [jakiꜜsoba]), "fried buckwheat", is a Japanese noodle stir-fry dish. Although soba means buckwheat, yakisoba noodles are actually made from wheat flour, and are typically flavored with a condiment similar to Worcestershire sauce. The dish first appeared in food stalls in Japan during the early 20th century.</p>
+                        <p>Price: IDR</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <p>&#169; 2020 Axel C </p>
+      </div>
+    </footer>
+    <script>
+    // Get the modal
+    var modal = document.getElementsByClassName('modal');
+
+    // Get the button that opens the modal
+    var btn = document.getElementsByClassName("myBtn");
+
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close");
+
+    // When the user clicks the button, open the modal
+    btn[0].onclick = function() {
+        modal[0].style.display = "block";
+    }
+
+    btn[1].onclick = function() {
+        modal[1].style.display = "block";
+    }
+
+    btn[2].onclick = function() {
+        modal[2].style.display = "block";
+    }
+
+    btn[3].onclick = function() {
+        modal[3].style.display = "block";
+    }
+
+    btn[4].onclick = function() {
+        modal[4].style.display = "block";
+    }
+
+    btn[5].onclick = function() {
+        modal[5].style.display = "block";
+    }
+
+    btn[6].onclick = function() {
+        modal[6].style.display = "block";
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    span[0].onclick = function() {
+        modal[0].style.display = "none";
+    }
+
+    span[1].onclick = function() {
+        modal[1].style.display = "none";
+    }
+
+    span[2].onclick = function() {
+        modal[2].style.display = "none";
+    }
+
+    span[3].onclick = function() {
+        modal[3].style.display = "none";
+    }
+
+    span[4].onclick = function() {
+        modal[4].style.display = "none";
+    }
+
+    span[5].onclick = function() {
+        modal[5].style.display = "none";
+    }
+
+    span[6].onclick = function() {
+        modal[6].style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+  </script>
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+  }
+  </script>
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  }
+
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.body.style.backgroundColor = "white";
+  }
+</script>
+  </body>
+</html>
